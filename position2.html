@@ -24,10 +24,10 @@
 			.absolute-position-image{
 				position:absolute;
 				height: 50px;
-				width: 70%;
+				width: 90%;
 				color: red;
 				top: 10px;
-				left: 15%;
+				left: 5%;
 				/*right: auto;*/
 				/*background-color: lightgrey;*/
 				z-index: 0;
@@ -65,6 +65,28 @@
 				background-color: rgba(255, 105,180,0.3);
 				z-index: 1;
 			}
+
+
+					/* Medium device - Ipad */
+			@media (min-width:300px){
+				.absolute-position-text{
+				position:absolute;
+				height: 50px;
+				width: 100%;
+				color: white;
+				top: 208px;
+				left: 20px;
+				/*right: auto;*/
+				/*background-color: lightgrey;*/
+				z-index: 0;
+				/*align-items: center;*/
+			}
+
+			.absolute-position-text > h1{
+				font-size: 18px;
+			}
+
+	       }
 
 			
 		</style>
