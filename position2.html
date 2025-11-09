@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Position Fixed</title>
+
+		<style>
+				* {
+					margin: 0;
+					padding: 0;
+					box-sizing: border-box;
+				}
+			
+
+			.relative-position{
+				position:relative;
+				height: 250px;
+				width: 100%;
+				left: 0px;
+				background-color: black;
+			}
+
+			.absolute-position-image{
+				position:absolute;
+				height: 50px;
+				width: 70%;
+				color: red;
+				top: 10px;
+				left: 150px;
+				/*right: auto;*/
+				/*background-color: lightgrey;*/
+				z-index: 0;
+				/*align-items: center;*/
+			}
+
+			.absolute-position-text{
+				position:absolute;
+				height: 50px;
+				width: 80%;
+				color: white;
+				top: 208px;
+				left: 20px;
+				/*right: auto;*/
+				/*background-color: lightgrey;*/
+				z-index: 0;
+				/*align-items: center;*/
+			}
+
+
+
+
+			.image-center {
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+
+			.absolute-position-cover{
+				position:absolute;
+				height: 150px;
+				width: 100%;
+				left: 0;
+				top:10px;
+				background-color: rgba(255, 105,180,0.3);
+				z-index: 1;
+			}
+
+			
+		</style>
+
+
+	
+
+</head>
+<body>
+		<div class="relative-position">
+			
+		</div>
+
+		<div class="absolute-position-image">
+			<img src="./images/dressing.png" height=200px width="100%" class="image-center" > 
+		</div>
+
+		<div class="absolute-position-text">
+			<h1>Nigeria - The Three Major Cultural Groups</h1>
+		</div>
+		
+		
+		<div class="absolute-position-cover">
+		</div>
+		
+</body>
+</html>
