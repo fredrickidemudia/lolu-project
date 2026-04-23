@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    
+</head>
+    <body>
+
+        <div class="container" style="background-color:rgb(229, 230, 230);">
+            <div class="d-flex justify-content-center"><h1>Registration Form - (Lolu)</h1>
+            </div>
+
+            <div>
+            <form>
+                <label for="name" class="mb-2 fw-bold">Name:</label>
+                <input type="text" id="name" placeholder="Type your name" class="form-control mb-2">
+                
+                <label for="surname" class="mb-2 fw-bold">Surname:</label>
+                <input type="text" id="surname" placeholder="Type your surname" class="form-control mb-2">
+
+                <label for="Email" class="mb-2 fw-bold">Email:</label>
+                <input type="email" id="email" placeholder="Type your email" class="form-control mb-2">
+
+                <button type="button" class="btn btn-primary btn my-3">Submit</button>
+            </form>
+        </div>
+        </div>
+
+        
+
+    
+        <script>
+            
+
+            function changeBg(){
+                let divBG = document.getElementById("div-box")
+
+                if(divBG.style.backgroundColor === "red"){
+                    divBG.style.backgroundColor = "blue"
+                }
+
+                else{
+                    divBG.style.backgroundColor = "red"
+                }
+
+            }
+        </script>
+    </body>
+</html>   
